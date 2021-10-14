@@ -3,6 +3,9 @@
 ## Intro
 
 <!-- add intro -->
+### What is LUD?
+### Purpose
+### Other
 
 ![lkud](https://socialify.git.ci/NetworkCable/lkud/image?description=1&font=Inter&forks=1&issues=1&language=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
 
