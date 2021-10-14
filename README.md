@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lankan Urban Dictionary
 
-## Getting Started
+## Intro
 
-First, run the development server:
+<!-- add intro -->
 
-```bash
-npm run dev
-# or
-yarn dev
+![lkud](https://socialify.git.ci/NetworkCable/lkud/image?description=1&font=Inter&forks=1&issues=1&language=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
+
+## Tech Stack
+
+- Reactjs (Nextjs)
+- TailwindCss
+- Firebase Firestore
+- Firebase authentication
+- Vercel
+
+## Contributors
+
+<a href="https://github.com/NetworkCable/lkud/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NetworkCable/lkud" />
+</a>
+
+## Contribution Guide
+
+1. Fork the repository
+
+2. Clone the repository
+
+```
+git clone https://github.com/NetworkCable/lkud.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Create Feature branch and checkout
+   _Replace <BRANCH_NAME> with meaningful name. For an example navbar. See the guide for the more details [Link](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)_
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+git checkout -b feature/<BRANCH_NAME>
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+4. Do your modifications
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+5. Stage Changes and commit
 
-## Learn More
+```
+git add .
+git commit -m "<Commit message>"
+```
 
-To learn more about Next.js, take a look at the following resources:
+6. Push Changes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+git push --set-upstream origin feature/<BRANCH_NAME>
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+7. Make a Pull Request.
+   _See the guide for more details [Link](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)_
