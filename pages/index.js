@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -10,8 +9,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <div className="text-4xl text-red-500">LKUD</div>
+      <main className="w-full h-screen m-auto">
+        <div className="h-full w-1/3 fixed bg-maroon-base overflow-x-hidden pt-5 font-montserrat">
+          LKUD
+        </div>
       </main>
     </div>
   );
