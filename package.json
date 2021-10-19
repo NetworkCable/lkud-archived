@@ -10,6 +10,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^4.5.1",
     "firebase": "^9.1.3",
     "next": "11.1.2",
     "react": "17.0.2",
