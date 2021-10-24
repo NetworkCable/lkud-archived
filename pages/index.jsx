@@ -1,10 +1,13 @@
+import Layout from '../components/common/Layout'
+import Container from '../components/common/Container'
+
 const Home = () => {
   return (
-    <div>
-      <main>
-        <div className='text-4xl text-red-500'>LKUD</div>
-      </main>
-    </div>
+    <Layout title='LKUD'>
+      <Container>
+        <p className='text-3xl'>LKUD</p>
+      </Container>
+    </Layout>
   )
 }
 
