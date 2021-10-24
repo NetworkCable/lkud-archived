@@ -9,7 +9,7 @@ const ProfilePage = () => {
   return (
     <Layout title='Profile | LKUD'>
       <Container>
-        <section className='bg-offWhite'>
+        <section className='pt-2 pb-12 bg-offWhite'>
           <Navbar />
           <section className='py-3 border-b-2 border-maroon-base flex justify-between'>
             <h1 className='text-5xl text-maroon-base '>Saman Kumara</h1>
