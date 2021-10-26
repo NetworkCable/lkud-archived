@@ -1,26 +1,27 @@
 module.exports = {
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  mode: 'jit',
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      montserrat: ["Montserrat", "sans-serif"],
+      montserrat: ['Montserrat', 'sans-serif'],
     },
     extend: {
       colors: {
-        offWhite: "#F5F5F5",
+        offWhite: '#F5F5F5',
         yellow: {
-          base: "#FFBE29",
+          base: '#FFBE29',
         },
-        orange: "#FF7300",
+        orange: '#FF7300',
         green: {
-          base: "#00722A",
+          base: '#00722A',
         },
         maroon: {
-          base: "#8D153A",
-          light: "#D98484",
+          base: '#8D153A',
+          light: '#D98484',
         },
         gray: {
-          base: "#C4C4C4",
+          base: '#C4C4C4',
         },
       },
     },
@@ -29,4 +30,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-};
+}
