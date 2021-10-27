@@ -11,11 +11,13 @@ const ProfilePage = () => {
       <Container>
         <section className='pt-2 pb-12 bg-offWhite'>
           <Navbar />
-          <section className='py-3 border-b-2 border-maroon-base flex justify-between'>
-            <h1 className='text-5xl text-maroon-base '>Saman Kumara</h1>
+          <section className='py-1 md:py-3 border-b-2 border-maroon-base flex justify-between'>
+            <h1 className='text-4xl md:text-5xl text-maroon-base '>
+              Saman Kumara
+            </h1>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='mt-5 h-7 w-7 cursor-pointer stroke-current text-maroon-base'
+              className='mt-2.5 h-6 w-6 md:mt-5 md:h-7 md:w-7 cursor-pointer stroke-current text-maroon-base'
               fill='none'
               viewBox='0 0 24 24'
               stroke='currentColor'
@@ -29,15 +31,17 @@ const ProfilePage = () => {
             </svg>
           </section>
           <section className='py-6'>
-            <h1 className='text-3xl text-maroon-base'>Bio</h1>
-            <h2 className='py-2 text-lg'>
+            <h1 className='text-2xl md:text-3xl text-maroon-base'>Bio</h1>
+            <h2 className='py-2 text-md md:text-lg'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vel
               ea perspiciatis in atque, minima nisi accusamus quae doloribus id.
             </h2>
           </section>
           <section className='py-2'>
             <div className='flex justify-between'>
-              <h1 className='text-3xl text-maroon-base'>Your Definitions</h1>
+              <h1 className='text-2xl md:text-3xl text-maroon-base'>
+                Your Definitions
+              </h1>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='mt-2 h-6 w-6 stroke-current text-maroon-base cursor-pointer'
@@ -55,27 +59,27 @@ const ProfilePage = () => {
               </svg>
             </div>
             {isDefinitionsVisible && (
-              <div className='py-6'>
-                <div className='pt-2 pb-3 grid grid-cols-3 gap-4'>
+              <div className='py-4 md:py-6'>
+                <div className='pt-2 pb-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                   {arr.map((i) => (
                     <div className='bg-white flex-col space-y-2 p-4 shadow'>
                       <div className='flex-col space-y-1.5'>
-                        <h1 className='text-2xl'>Aathal</h1>
-                        <h1 className='text-xl'>අ‍ාතල්</h1>
+                        <h1 className='text-xl md:text-2xl'>Aathal</h1>
+                        <h1 className='text-lg md:text-xl'>අ‍ාතල්</h1>
                       </div>
 
-                      <h2 className='text-lg'>
+                      <h2 className='text-md md:text-lg'>
                         Happy feeling, state of happiness.
                       </h2>
                       <div className='flex-col space-y-0.5'>
-                        <h3 className='text-lg'>Upvotes: 3</h3>
-                        <h3 className='text-lg'>Downvotes: 0</h3>
+                        <h3 className='text-md md:text-lg'>Upvotes: 3</h3>
+                        <h3 className='text-md md:text-lg'>Downvotes: 0</h3>
                       </div>
                     </div>
                   ))}
                 </div>
                 <div className='flex justify-end '>
-                  <h2 className='text-maroon-base cursor-pointer '>
+                  <h2 className='text-maroon-base cursor-pointer text-sm md:text-md'>
                     view more
                   </h2>
                 </div>
@@ -84,7 +88,9 @@ const ProfilePage = () => {
           </section>
           <section className='py-2 '>
             <div className='flex justify-between'>
-              <h1 className='text-3xl text-maroon-base'>Liked Definitions</h1>
+              <h1 className='text-2xl md:text-3xl text-maroon-base'>
+                Liked Definitions
+              </h1>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='mt-2 h-6 w-6 stroke-current text-maroon-base cursor-pointer'
@@ -102,27 +108,27 @@ const ProfilePage = () => {
               </svg>
             </div>
             {isLikedVisible && (
-              <div className='py-6'>
-                <div className='pt-2 pb-3 grid grid-cols-3 gap-4'>
+              <div className='py-4 md:py-6'>
+                <div className='pt-2 pb-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4'>
                   {arr.map((i) => (
                     <div className='bg-white flex-col space-y-2 p-4 shadow'>
                       <div className='flex-col space-y-1.5'>
-                        <h1 className='text-2xl'>Aathal</h1>
-                        <h1 className='text-xl'>අ‍ාතල්</h1>
+                        <h1 className='text-xl md:text-2xl'>Aathal</h1>
+                        <h1 className='text-lg md:text-xl'>අ‍ාතල්</h1>
                       </div>
 
-                      <h2 className='text-lg'>
+                      <h2 className='text-md md:text-lg'>
                         Happy feeling, state of happiness.
                       </h2>
                       <div className='flex-col space-y-0.5'>
-                        <h3 className='text-lg'>Upvotes: 3</h3>
-                        <h3 className='text-lg'>Downvotes: 0</h3>
+                        <h3 className='text-md md:text-lg'>Upvotes: 3</h3>
+                        <h3 className='text-md md:text-lg'>Downvotes: 0</h3>
                       </div>
                     </div>
                   ))}
                 </div>
                 <div className='flex justify-end '>
-                  <h2 className='text-maroon-base cursor-pointer '>
+                  <h2 className='text-maroon-base cursor-pointer text-sm md:text-md'>
                     view more
                   </h2>
                 </div>
