@@ -55,7 +55,7 @@ const Layout = ({ children, title }) => {
             <div className='h-5 bg-green-base' />
           </div>
         </div>
-        <div className='col-span-1 row-span-3 md:row-span-1 md:col-span-3'>
+        <div className='col-span-1 row-span-3 md:row-span-1 md:col-span-3 cursor-default'>
           {children}
         </div>
       </main>
