@@ -16,7 +16,7 @@
     type = 'button',
     children,
     onClick = null,
-    color = 'bg-blue-base hover:bg-blue-light',
+    color = 'bg-maroon-base hover:bg-maroon-light',
     textSize = 'text-sm ',
     textColor = 'text-white',
     padding = 'py-2 px-4',
