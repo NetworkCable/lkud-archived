@@ -25,7 +25,7 @@
     validation,
     errors,
     index = '-1',
-    labelStyles = 'text-sm text-black',
+    labelStyles = 'text-sm text-maroon-base',
     onFocus,
     onBlur,
   }) => {
@@ -39,7 +39,7 @@
           placeholder={placeholder}
           onFocus={onFocus}
           onBlur={onBlur}
-          className='peer h-12 block w-full rounded-md border-gray-500 border-opacity-50 shadow-sm focus:outline-none focus:border-indigo-400 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 placeholder-transparent'
+          className='peer h-12 block w-full rounded-md border-maroon-base border-opacity-50 shadow-sm focus:outline-none focus:border-maroon-light focus:ring focus:ring-maroon-light focus:ring-opacity-50 placeholder-transparent'
         />
         <label
           htmlFor={`${name}${index}`}

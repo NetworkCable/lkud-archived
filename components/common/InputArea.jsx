@@ -32,11 +32,11 @@
           type={type}
           {...register(name, validation)}
           placeholder={placeholder}
-          className={`peer ${height} block w-full rounded-md border-gray-500 border-opacity-50 shadow-sm focus:outline-none focus:border-indigo-400 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 placeholder-transparent resize-none`}
+          className={`peer ${height} block w-full rounded-md border-maroon-base border-opacity-50 shadow-sm focus:outline-none focus:border-maroon-light focus:ring focus:ring-maroon-light focus:ring-opacity-50 placeholder-transparent resize-none`}
         />
         <label
           htmlFor={name}
-          className='absolute left-0 -top-6 text-black text-sm transition-all ease-out peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-3 peer-placeholder-shown:left-3 peer-focus:-top-6 peer-focus:left-0 peer-focus:text-black peer-focus:text-sm cursor-text'
+          className='absolute left-0 -top-6 text-maroon-base text-sm transition-all ease-out peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-3 peer-placeholder-shown:left-3 peer-focus:-top-6 peer-focus:left-0 peer-focus:text-black peer-focus:text-sm cursor-text'
         >
           {label}
         </label>
