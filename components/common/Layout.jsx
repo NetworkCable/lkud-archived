@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Container from './Container'
+import Button from './Button'
 
 /**
  * Use this component as a page layout.
@@ -47,7 +48,14 @@ const Layout = ({ children, title }) => {
                   alt='line'
                 />
               </div>
-              <p>(// here comes the button)</p>
+              <Button
+                margin='mb-4'
+                width='w-full'
+                textSize='sm:text-lg md:text-xl'
+                textColor='text-maroon-base'
+              >
+                DEFINE A WORD
+              </Button>
             </Container>
           </div>
           <div>
