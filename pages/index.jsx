@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <Layout title='LKUD'>
       <Container>
-        <p className='text-3xl'>LKUD</p>
+        <p className='text-3xl mb-8'>LKUD</p>
       </Container>
     </Layout>
   )
