@@ -5,13 +5,13 @@ import InputTag from '../components/common/InputTag'
 import InputArea from '../components/common/InputArea'
 import Button from '../components/common/Button'
 import { useForm } from 'react-hook-form'
-import { useState } from 'react'
+// import { useState } from 'react'
 
 const DefinePage = () => {
-  const [data, setData] = useState({
-    word: '',
-    meaning: '',
-  })
+  // const [data, setData] = useState({
+  //   word: '',
+  //   meaning: '',
+  // })
 
   const {
     register,

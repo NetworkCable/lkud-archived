@@ -3,7 +3,7 @@ import Layout from '../components/common/Layout'
 import Navbar from '../components/common/Navbar'
 import { useState } from 'react'
 const ProfilePage = () => {
-  const arr = [1, 2, 3, 4, 5, 6]
+  // const arr = [1, 2, 3, 4, 5, 6]
   const [isDefinitionsVisible, setIsDefinitionsVisible] = useState(false)
   const [isLikedVisible, setIsLikedVisible] = useState(false)
   return (
@@ -61,22 +61,20 @@ const ProfilePage = () => {
             {isDefinitionsVisible && (
               <div className='py-4 md:py-6'>
                 <div className='pt-2 pb-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-                  {arr.map((i) => (
-                    <div className='bg-white flex-col space-y-2 p-4 shadow'>
-                      <div className='flex-col space-y-1.5'>
-                        <h1 className='text-xl md:text-2xl'>Aathal</h1>
-                        <h1 className='text-lg md:text-xl'>අ‍ාතල්</h1>
-                      </div>
-
-                      <h2 className='text-md md:text-lg'>
-                        Happy feeling, state of happiness.
-                      </h2>
-                      <div className='flex-col space-y-0.5'>
-                        <h3 className='text-md md:text-lg'>Upvotes: 3</h3>
-                        <h3 className='text-md md:text-lg'>Downvotes: 0</h3>
-                      </div>
+                  <div className='bg-white flex-col space-y-2 p-4 shadow'>
+                    <div className='flex-col space-y-1.5'>
+                      <h1 className='text-xl md:text-2xl'>Aathal</h1>
+                      <h1 className='text-lg md:text-xl'>අ‍ාතල්</h1>
                     </div>
-                  ))}
+
+                    <h2 className='text-md md:text-lg'>
+                      Happy feeling, state of happiness.
+                    </h2>
+                    <div className='flex-col space-y-0.5'>
+                      <h3 className='text-md md:text-lg'>Upvotes: 3</h3>
+                      <h3 className='text-md md:text-lg'>Downvotes: 0</h3>
+                    </div>
+                  </div>
                 </div>
                 <div className='flex justify-end '>
                   <h2 className='text-maroon-base cursor-pointer text-sm md:text-md'>
@@ -110,22 +108,20 @@ const ProfilePage = () => {
             {isLikedVisible && (
               <div className='py-4 md:py-6'>
                 <div className='pt-2 pb-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4'>
-                  {arr.map((i) => (
-                    <div className='bg-white flex-col space-y-2 p-4 shadow'>
-                      <div className='flex-col space-y-1.5'>
-                        <h1 className='text-xl md:text-2xl'>Aathal</h1>
-                        <h1 className='text-lg md:text-xl'>අ‍ාතල්</h1>
-                      </div>
-
-                      <h2 className='text-md md:text-lg'>
-                        Happy feeling, state of happiness.
-                      </h2>
-                      <div className='flex-col space-y-0.5'>
-                        <h3 className='text-md md:text-lg'>Upvotes: 3</h3>
-                        <h3 className='text-md md:text-lg'>Downvotes: 0</h3>
-                      </div>
+                  <div className='bg-white flex-col space-y-2 p-4 shadow'>
+                    <div className='flex-col space-y-1.5'>
+                      <h1 className='text-xl md:text-2xl'>Aathal</h1>
+                      <h1 className='text-lg md:text-xl'>අ‍ාතල්</h1>
                     </div>
-                  ))}
+
+                    <h2 className='text-md md:text-lg'>
+                      Happy feeling, state of happiness.
+                    </h2>
+                    <div className='flex-col space-y-0.5'>
+                      <h3 className='text-md md:text-lg'>Upvotes: 3</h3>
+                      <h3 className='text-md md:text-lg'>Downvotes: 0</h3>
+                    </div>
+                  </div>
                 </div>
                 <div className='flex justify-end '>
                   <h2 className='text-maroon-base cursor-pointer text-sm md:text-md'>
